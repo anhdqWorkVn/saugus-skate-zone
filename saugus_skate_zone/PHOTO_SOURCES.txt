@@ -1,0 +1,5 @@
+Photos embedded locally from the five screenshots supplied by the student.
+Original attribution retained on each HTML page (Homes.com, Kingsway Skateland, Karta, USA Skating Rinks, Family Action).
+Check original image licensing/permission before public publishing.
+The photos are illustrative, not photos of a real Saugus Skate Zone.
+All five photos are inside images/ and do not require internet access.

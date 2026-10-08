@@ -1,0 +1,39 @@
+/* Shared stylesheet for all five pages */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body { background: #f0f4fb; color: #20283d; font-family: 'Poppins', sans-serif; margin: 0; }
+header { background: #263b74; width: 85%; margin: 20px auto 0; padding: 15px; box-sizing: border-box; text-align: center; border: 5px solid #f8bd55; }
+header h1 { color: white; font-size: 2em; margin: 6px 0; }
+.logo { width: 280px; max-width: 100%; height: auto; }
+nav { background: #dbe5fb; width: 85%; margin: 10px auto; padding: 8px; box-sizing: border-box; }
+nav table { margin: auto; border-spacing: 12px 4px; }
+nav td { text-align: center; }
+a { color: #244a91; }
+a:hover { color: #b13b6a; text-decoration: underline; }
+nav a { font-weight: 600; text-decoration: none; }
+main { width: 85%; margin: auto; }
+section { background: white; margin: 20px 0; padding: 20px; border: 3px solid #263b74; border-radius: 12px; }
+.second-section { background: #e9f0ff; }
+h2 { margin-top: 0; color: #263b74; }
+h3 { color: #305c85; }
+.page-image { display: block; width: 100%; max-width: 680px; height: auto; margin: 15px auto; }
+.linked-image { width: 260px; max-width: 100%; height: auto; }
+blockquote { margin: 12px 0; padding: 10px 16px; border-left: 5px solid #f8bd55; background: white; }
+.map-frame { width: 100%; height: 350px; border: 0; }
+footer { background: #263b74; color: white; width: 85%; margin: 20px auto; padding: 15px; box-sizing: border-box; text-align: center; }
+footer a { color: #ffdb6e; }
+footer a:hover { color: white; }
+/* Make navigation and logo fit a smaller screen */
+@media (max-width: 600px) {
+    header, nav, main, footer { width: 95%; }
+    header h1 { font-size: 1.5em; }
+    .logo { width: 95px; }
+    nav table { border-spacing: 5px; width: 100%; }
+    nav td { display: block; padding: 5px; }
+    section { padding: 12px; }
+}
+
+/* Extra photo added for the Images and Links assignment */
+.photo-block { max-width: 680px; margin: 16px auto; }
+.rink-photo { display: block; width: 100%; height: auto; border-radius: 8px; }
+figcaption { font-size: 0.8em; color: #555; margin-top: 5px; }
